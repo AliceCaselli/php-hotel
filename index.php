@@ -58,11 +58,9 @@
         foreach($hotel as $info){
 
             // echo $info . '<br>';
-            echo '<h2>' . $info['name'] . '</h2>';
-            echo '<p>' . $info['description'] . '</p>';
-            echo '<p>Parcheggio: ' . ($info['parking'] ? 'Sì' : 'No') . '</p>';
-            echo '<p>Voto: ' . $info['vote'] . '</p>';
-            echo '<hr>';
+
+            echo $info['name'];
+        
         }
     }
 ?>
